@@ -1,19 +1,14 @@
 CLASS zcl_fl_test_ag DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+  PUBLIC FINAL
+  CREATE PUBLIC.
 
   PUBLIC SECTION.
-    methods run.
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+    METHODS run.
 ENDCLASS.
-
 
 
 CLASS zcl_fl_test_ag IMPLEMENTATION.
   METHOD run.
-
+    " Test Change
   ENDMETHOD.
-
 ENDCLASS.
